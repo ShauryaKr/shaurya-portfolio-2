@@ -4,17 +4,21 @@ import SkillBox from "../../chip/SkillBox";
 
 import { IoLogoHtml5, IoLogoCss3 } from "react-icons/io";
 
-
 import {
   SiJavascript,
   SiTailwindcss,
   SiMongodb,
   SiExpress,
+  SiPython,
+  SiJava,
 } from "react-icons/si";
 import { GrCode } from "react-icons/gr";
 import { SiNextdotjs } from "react-icons/si";
-import { FaReact } from "react-icons/fa";
+import { FaReact, FaGithub } from "react-icons/fa";
 import { IoLogoNodejs } from "react-icons/io";
+
+import { DiAndroid, DiLinux } from 'react-icons/di';
+import * as VscodeIcons from 'react-icons/vsc';
 
 const Skills = ({ darkMode }) => {
   return (
@@ -42,14 +46,22 @@ const Skills = ({ darkMode }) => {
               className="progress flex items-center h-[100%] justify-end md:justify-center"
             >
               <div className=" flex flex-col gap-6  w-3/4  my-5 md:w-[90%]">
-                <ProgressBar logo={<IoLogoHtml5 />} name={"HTML"} value={95} />
-                <ProgressBar logo={<IoLogoCss3 />} name={"CSS"} value={88} />
                 <ProgressBar
-                  logo={<SiJavascript />}
-                  name={"Javascript"}
+                  logo={<IoLogoNodejs />}
+                  name={"NodeJS"}
+                  value={90}
+                />
+                <ProgressBar logo={<FaReact />} name={"React"} value={85} />
+                <ProgressBar
+                  logo={<SiJava />}
+                  name={"Java"}
                   value={80}
                 />
-                <ProgressBar logo={<FaReact />} name={"React Js"} value={80} />
+                <ProgressBar
+                  logo={<SiPython />}
+                  name={"Python"}
+                  value={80}
+                />
                 <ProgressBar
                   logo={<SiTailwindcss />}
                   name={"Tailwind CSS"}
@@ -62,43 +74,32 @@ const Skills = ({ darkMode }) => {
           <div className="right relative flex-1 flex flex-wrap p-5 gap-10 items-center justify-center sm:w-full">
             <div className="first2 flex flex-col gap-10">
               <SkillBox
-                logo={<IoLogoNodejs />}
+                logo={<DiAndroid />}
                 black={"white"}
                 white={"black"}
-                skill={"Node Js"}
+                skill={"Android Studio"}
               />
               <SkillBox
-                logo={<SiMongodb />}
+                logo={<VscodeIcons.VscCode />}
                 black={"white"}
                 white={"black"}
-                skill={"MongoDB"}
+                skill={"VS Code"}
               />
             </div>
             <div className="last2 flex flex-col gap-10">
               <SkillBox
-                logo={<SiExpress />}
+                logo={<FaGithub />}
                 black={"black"}
                 white={"white"}
-                skill={"Express Js"}
+                skill={"GitHub"}
               />
               <SkillBox
                 className=""
-                logo={
-                  <GrCode/>
-                }
+                logo={<DiLinux />}
                 black={"black"}
                 white={"white"}
-                skill={"C++"}
+                skill={"Linux"}
               />
-              {/* <SkillBox
-                className=""
-                logo={
-                  <SiNextdotjs className=" text-white bg-black rounded-full h-fit border-white overflow-hidden" />
-                }
-                black={"black"}
-                white={"white"}
-                skill={"Next Js"}
-              /> */}
             </div>
           </div>
         </div>
