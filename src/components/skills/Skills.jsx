@@ -17,8 +17,8 @@ import { SiNextdotjs } from "react-icons/si";
 import { FaReact, FaGithub } from "react-icons/fa";
 import { IoLogoNodejs } from "react-icons/io";
 
-import { DiAndroid, DiLinux } from 'react-icons/di';
-import * as VscodeIcons from 'react-icons/vsc';
+import { DiAndroid, DiLinux } from "react-icons/di";
+import * as VscodeIcons from "react-icons/vsc";
 
 const Skills = ({ darkMode }) => {
   return (
@@ -38,7 +38,7 @@ const Skills = ({ darkMode }) => {
               data-aos="fade-up"
               className=" text-gray-700 font-medium w-[100%]"
             >
-              Here are my skills.
+              Here are my list of skill which I gained over-time.
             </p>
             {/* left box */}
             <div
@@ -46,6 +46,12 @@ const Skills = ({ darkMode }) => {
               className="progress flex items-center h-[100%] justify-end md:justify-center"
             >
               <div className=" flex flex-col gap-6  w-3/4  my-5 md:w-[90%]">
+                <p
+                  data-aos="fade-up"
+                  className=" text-gray-700 font-medium w-[100%]"
+                >
+                  Primary Skills:
+                </p>
                 <ProgressBar
                   logo={<IoLogoNodejs />}
                   name={"NodeJS"}
@@ -53,20 +59,18 @@ const Skills = ({ darkMode }) => {
                 />
                 <ProgressBar logo={<FaReact />} name={"React"} value={85} />
                 <ProgressBar
-                  logo={<SiJava />}
-                  name={"Java"}
-                  value={80}
-                />
-                <ProgressBar
-                  logo={<SiPython />}
-                  name={"Python"}
-                  value={80}
-                />
-                <ProgressBar
                   logo={<SiTailwindcss />}
                   name={"Tailwind CSS"}
                   value={80}
                 />
+                <p
+                  data-aos="fade-up"
+                  className=" text-gray-700 font-medium w-[100%]"
+                >
+                  Secondary Skills:
+                </p>
+                <ProgressBar logo={<SiJava />} name={"Java"} value={80} />
+                <ProgressBar logo={<SiPython />} name={"Python"} value={80} />
               </div>
             </div>
           </div>

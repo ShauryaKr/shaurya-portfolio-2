@@ -29,8 +29,6 @@ const Hero = () => {
                 2000,
                 "Engineer",
                 2000,
-                "Freelancer",
-                2000,
                 "",
               ]}
               speed={30}
