@@ -102,7 +102,7 @@ const Skills = ({ darkMode }) => {
                 logo={<DiLinux />}
                 black={"black"}
                 white={"white"}
-                skill={"Linux"}
+                skill={"Linux OS"}
               />
             </div>
           </div>
