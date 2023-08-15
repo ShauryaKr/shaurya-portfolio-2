@@ -40,7 +40,7 @@ const Hero = () => {
               // data-aos="fade-up"
               className=" text-[1.1rem] font-medium w-3/4 md:w-full text-gray-600 sm:text-[.95rem]"
             >
-              I'm a young tech enthusiast with passion for Physics, Engineering and Computer Science.
+              I'm a young tech enthusiast with experience in website and app development. I've a passion for physics, engineering, and computer science. Additionally, I possess strong management and presentational skills, along with a high IQ.
             </p>
           </div>
           <div data-aos="fade-up" className="buttons flex gap-5">
