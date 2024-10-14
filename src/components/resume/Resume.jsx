@@ -90,7 +90,7 @@ const Resume = () => {
                   Pesto Tech
                 </span>
                 <span className=" text-[.9rem] font-semibold text-yellow-500 sm:text-base">
-                  Mar 2023 - Present
+                  Mar 2023 - August 2024
                 </span>
               </div>
               <br />
