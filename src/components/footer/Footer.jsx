@@ -32,7 +32,7 @@ const Footer = () => {
           <a 
           data-aos="fade-up" data-aos-duration="1400"
 
-            href="https://instagram.com/radhey_govind_/"
+            href="https://instagram.com/shaurya_3.141/"
             className="box font-medium text-white  flex items-center justify-center flex-col"
           >
             <RiInstagramFill className=" text-black text-3xl hover:scale-125 cursor-pointer" />

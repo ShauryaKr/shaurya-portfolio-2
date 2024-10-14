@@ -79,7 +79,7 @@ const Hero = () => {
                 </a>
               </li>
               <li>
-                <a href="https://instagram.com/radhey_govind_/">
+                <a href="https://instagram.com/shaurya_3.141/">
                   {" "}
                   <AiFillInstagram className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125  " />{" "}
                 </a>
