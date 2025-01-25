@@ -29,12 +29,14 @@ const Hero = () => {
                 2000,
                 "Engineer",
                 2000,
-                "",
+                "Physicist",
+                2000,
+                "",ss
               ]}
               speed={30}
               wrapper="h2"
               repeat={Infinity}
-              className="text-yellow-500 text-4xl font-bold sm:text-3xl"
+              className="text-red-500 text-4xl font-bold sm:text-3xl"
             />
             <p
               // data-aos="fade-up"
