@@ -36,7 +36,7 @@ const Hero = () => {
               speed={30}
               wrapper="h2"
               repeat={Infinity}
-              className="text-red-700 text-4xl font-bold sm:text-3xl"
+              className="text-red-600 text-4xl font-bold sm:text-3xl"
             />
             <p
               // data-aos="fade-up"
