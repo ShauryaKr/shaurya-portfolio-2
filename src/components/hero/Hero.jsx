@@ -13,7 +13,7 @@ import resumePDF from "../../assets/Shaurya Kumar Resume 2024.pdf";
 const Hero = () => {
   return (
     <div id="home" className={` bg-gradient-to-r from-green-200 to-blue-200 `}>
-      <div className=" container mx-auto pt-3 h-[600px] md:h-[80vh] md:flex-col-reverse sm:h-[700px]  flex sm:flex-col-reverse sm:pt-0 ">
+      <div className=" container mx-auto pt-2 h-[375px] md:h-[50vh] md:flex-col-reverse sm:h-[390px]  flex sm:flex-col-reverse sm:pt-0 ">
         <div className=" left mt-4 md:mt-0 flex-1 flex flex-col justify-center gap-5 w-1/2 md:w-full md:py-2 sm:py-0">
           <div className="info w-fit flex flex-col items-start justify-center gap-3 sm:gap-2">
             <h2
