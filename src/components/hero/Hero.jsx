@@ -45,10 +45,10 @@ const Hero = () => {
           </div>
           <div data-aos="fade-up" className="buttons flex gap-5">
             <a
-              href="https://linkedin.com/in/shaurya-kr/"
+              href="https://wa.me/+916201837783"
               className=" bg-black text-[1rem] text-white px-10 py-2 sm:px-8 rounded-lg font-bold  hover:text-yellow-500"
             >
-              <span>Contact Me</span>
+              <span>Contact</span>
             </a>
             <a
               href={resumePDF}
