@@ -36,13 +36,13 @@ const Hero = () => {
               speed={30}
               wrapper="h2"
               repeat={Infinity}
-              className="text-red-500 text-4xl font-bold sm:text-3xl"
+              className="text-red-750 text-4xl font-bold sm:text-3xl"
             />
             <p
               // data-aos="fade-up"
               className=" text-[1.1rem] font-medium w-3/4 md:w-full text-gray-600 sm:text-[.95rem]"
             >
-              I build drones & stuff. I love studying Quantum Physics & programming is my hobby. I'm damn funny too!
+              I build drones & stuff. I love studying Physics & programming is my hobby. I'm a fitness freak too!
             </p>
           </div>
           <div data-aos="fade-up" className="buttons flex gap-5">
