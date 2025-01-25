@@ -24,7 +24,7 @@ const Contact = () => {
             >
               <h1 className="text-5xl font-bold sm:text-3xl">Leave Request</h1>
               <h3 className="text-xl sm:text-lg">
-                Build beautiful design for your website!
+                I will reach out to you!
               </h3>
             </div>
           </div>

@@ -40,7 +40,7 @@ const Hero = () => {
               // data-aos="fade-up"
               className=" text-[1.1rem] font-medium w-3/4 md:w-full text-gray-600 sm:text-[.95rem]"
             >
-              I'm a young tech enthusiast with experience in website and app development. I've a passion for physics, engineering, and computer science.
+              I build drones & stuff. I love studying Quantum Physics & programming is my hobby. I'm damn funny too!
             </p>
           </div>
           <div data-aos="fade-up" className="buttons flex gap-5">
@@ -48,7 +48,7 @@ const Hero = () => {
               href="https://linkedin.com/in/shaurya-kr/"
               className=" bg-black text-[1rem] text-white px-10 py-2 sm:px-8 rounded-lg font-bold  hover:text-yellow-500"
             >
-              <span> Hire Me</span>
+              <span>Contact Me</span>
             </a>
             <a
               href={resumePDF}
@@ -99,7 +99,7 @@ const Hero = () => {
             </ul>
           </div>
         </div>
-        <div className="right  top-5 flex-1 flex items-center justify-center md:items-end sm:items-end">
+        {/*<div className="right  top-5 flex-1 flex items-center justify-center md:items-end sm:items-end">
           <div className="relative h-[88%] w-fit flex items-center sm:items-end">
             <img
               data-aos="fade-up"
@@ -123,7 +123,7 @@ const Hero = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div>*/}
       </div>
     </div>
   );
