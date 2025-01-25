@@ -31,7 +31,7 @@ const Hero = () => {
                 2000,
                 "Physicist",
                 2000,
-                "",ss
+                "",
               ]}
               speed={30}
               wrapper="h2"
